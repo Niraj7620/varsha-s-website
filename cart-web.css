@@ -1,0 +1,7 @@
+.products-js{
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+}
+.dress-div-3{
+    height: 200px;
+}

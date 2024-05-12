@@ -1,0 +1,286 @@
+.main-imgs-div{
+    position: relative;
+    top: 100px;
+    left: 2%;
+    background: bisque;
+    /* background: #cfbe9e; */
+    width: 65%;
+    height: 520px;
+    border-radius: 5px;
+}
+
+.outDiv-1{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+.inDiv-1{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background: url(web-images/cart-image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+.inDiv-1:hover{
+    transform: scale(1.06);
+}
+
+.outDiv-2{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    top: 170px;
+    position: absolute;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+.inDiv-2{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background: url(web-images/cart-image-2-hover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .3s;
+}
+.inDiv-2:hover{
+    transform: scale(1.06);
+}
+
+.outDiv-3{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    top: 340px;
+    position: absolute;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+.inDiv-3{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background: url(web-images/cart-image-2-three.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .3s;
+}
+.inDiv-3:hover{
+    transform: scale(1.06);
+}
+
+.outDiv-4{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    /* top: 340px; */
+    left: 120px;
+    position: absolute;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+.inDiv-4{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background: url(web-images/cart-image-2-four.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .3s;
+}
+.inDiv-4:hover{
+    transform: scale(1.06);
+}
+
+.outDiv-5{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    top: 170px;
+    left: 120px;
+    position: absolute;
+    overflow: hidden;
+    border: solid 2px white;
+    border-radius: 3px;
+}
+.inDiv-5{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    background: url(web-images/cart-image-2-five.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .3s;
+}
+.inDiv-5:hover{
+    transform: scale(1.06);
+}
+
+.inDiv-main{
+    width: 349px;
+    height: 490px;
+    top: 10px;
+    left: 30%;
+    position: absolute;
+    background-image: url(web-images/cart-image-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid white;
+    border-radius: 5px;
+}
+
+/* comment */
+
+.main-details-div{
+    width: 440px;
+    height: 520px;
+    position: absolute;
+    display: flex;
+    top: 110px;
+    left: 900px;
+    background: bisque;
+    border-radius: 5px;
+}
+.main-order-details{
+    width: 380px;
+    height: 480px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 50px 30px 40px 160px 50px 70px;
+    /* background-color: red; */
+}
+.in-1{
+    /* width: 100%; */
+    height: 45px;
+    /* background: white; */
+    color: darksalmon;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+.in-2{
+    /* width: 100%; */
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* background: white; */
+    margin: 5px;
+}
+.in-3{
+    /* width: 100%; */
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* background: white; */
+    /* border: solid; */
+    margin: 5px;
+}
+.in-4{
+    /* width: 100%; */
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    /* background: white; */
+    /* border: solid; */
+    margin: 5px;
+}
+.size-button{
+    width: 54px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.size-button:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+.size-button:focus{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+
+.in-5{
+    /* width: 100%; */
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* background: white; */
+    /* border: solid; */
+    margin: 5px;
+}
+.quantity-option{
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    width: 40px;
+}
+
+.in-6{
+    /* width: 100%; */
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* background: green; */
+    /* border: solid; */
+    margin: 5px;
+    display: flex;
+}
+.cart-button{
+    width: 100%;
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow .4s;
+}
+.cart-button:hover{
+    color: white;
+    box-shadow: inset 0px 25px 0px black,
+    inset 0px -25px 0px black;
+}
+
+.in-7{
+    /* width: 100%; */
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    /* background: green; */
+    /* border: solid; */
+    margin: 5px;
+    display: flex;
+}
+.buy-button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    /* margin-left: 10px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow .4s;
+}
+.buy-button:hover{
+    color: white;
+    box-shadow: inset 0 25px 0px black,
+                inset 0 -25px 0px black;
+}

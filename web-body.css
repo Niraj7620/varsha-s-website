@@ -1,0 +1,579 @@
+/* New */
+.main-web-div{
+    height: 540px;
+    background-color: #FEFAE0;
+    position: relative;
+    top: 80px;
+    display: flex;
+}
+
+.human-pic{
+    width: 1300px;
+    height: 480px;
+    left: 20px;
+    top: 32px;
+    border-radius: 20px;
+    background-color: rgb(255, 214, 168);
+    /* background-color: #FAF6A9; */
+    position: absolute;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.sale-div{
+    background-color: white;
+    font-size: 18px;
+    width: 850px;
+    height: 20px;
+    padding-left: 450px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-shadow:  1px 1px 3px grey;
+}
+
+.web-women-div{
+    /* width: 430px;
+    height: 480px; */
+    left: 0;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.web-img-women{
+    width: 190px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+}
+.web-img-women:hover{
+    filter: drop-shadow(0px 0px 5px grey);
+    transform: scale(1.01);
+}
+.web-women-text{
+    position: absolute;
+    left: 140px;
+    color: black;
+    top: 440px;
+    /* text-shadow:  3px 3px 2px white; */
+    font-size: 20px;
+}
+
+.web-kids-div{
+    width: 420px;
+    height: 480px;
+    left: 440px;
+    position: absolute;
+    object-fit: cover;
+}
+.web-img-kids{
+    width: 210px;
+    left: 120px;
+    top: 135px;
+    position: absolute;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+}
+.web-img-kids:hover{
+    filter: drop-shadow(0px 0px 5px grey);
+    transform: scale(1.01);
+}
+.web-kids-text{
+    position: absolute;
+    top: 440px;
+    left: 200px;
+    color: black;
+    /* text-shadow:  0px 0px 0px white; */
+    font-size: 20px;
+}
+
+.web-men-div{
+    width: 430px;
+    height: 480px;
+    left: 870px;
+    position: absolute;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.web-img-men{
+    width: 130px;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+}
+.web-img-men:hover{
+    filter: drop-shadow(0px 0px 5px grey);
+    transform: scale(1.01);
+}
+.web-men-text{
+    position: absolute;
+    left: 220px;
+    top: 440px;
+    color: black;
+    /* text-shadow:  1px 1px 3px black; */
+    font-size: 20px;
+}
+
+/* New */
+.main-types-div{
+    height: 270px;
+    width: 100%;
+    background-color: #FEFAE0;
+    display: flex;
+    margin-top: 120px;
+    border: solid 5px darksalmon;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+.dress-types-text{
+    left: 540px;
+    top: 20px;
+    font-size: 30px;
+    color: darksalmon;
+    position: absolute;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.styles-div-1{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.styles-child-1{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image:  url(web-images/indo-western-gown.jpg);
+    background-size: cover;
+    transition: transform .6s, box-shadow .6s;
+    box-shadow: 0 0 5px black inset;
+}
+.styles-div-1:hover .styles-child-1{
+    box-shadow: 0 0 20px .1px black inset;
+    transform: scale(1.05);
+}
+
+.styles-div-2{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 100px;
+    background-color: beige;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+.styles-child-2{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-image:  url(web-images/indo-western-saree.jpg);
+    transition: transform .6s, box-shadow .6s;
+    box-shadow: 0 0 5px black inset;
+}
+.styles-div-2:hover .styles-child-2{
+    box-shadow: 0 0 20px 1px black inset;
+    transform: scale(1.05);
+}
+
+.styles-div-3{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 100px;
+    background-color: beige;
+    position: relative;
+    background-size: cover;
+    box-shadow: 0 0 5px black inset;
+    overflow: hidden;
+    cursor: pointer;
+}
+.styles-child-3{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image:  url(web-images/indo-western-kurti.jpg);
+    background-size: cover;
+    transition: transform .6s, box-shadow .6s;
+    box-shadow: 0 0 5px black inset;
+}
+.styles-div-3:hover .styles-child-3{
+    box-shadow: 0 0 20px 1px black inset;
+    transform: scale(1.05);
+}
+
+.styles-div-4{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 100px;
+    background-color: beige;
+    position: relative;
+    background-size: cover;
+    box-shadow: 0 0 5px black inset;
+    overflow: hidden;
+    cursor: pointer;
+}
+.styles-child-4{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image:  url(web-images/indo-western-sherwani.jpg);
+    background-size: cover;
+    transition: transform .6s, box-shadow .6s;
+    box-shadow: 0 0 5px black inset;
+}
+.styles-div-4:hover .styles-child-4{
+    box-shadow: 0 0 20px 1px black inset;
+    transform: scale(1.05);
+}
+
+.styles-div-5{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 100px;
+    background-color: beige;
+    position: relative;
+    background-size: cover;
+    box-shadow: 0 0 5px black inset;
+    overflow: hidden;
+    cursor: pointer;
+}
+.styles-child-5{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-image:  url(web-images/indo-western-kurta.jpg);
+    transition: transform .6s, box-shadow .6s;
+    box-shadow: 0 0 5px black inset;
+}
+.styles-div-5:hover .styles-child-5{
+    box-shadow: 0 0 20px 1px black inset;
+    transform: scale(1.05);
+}
+
+.styles-text{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    font: 20px bold;
+    text-shadow:  1px 1px 2px black;
+}
+.styles-text-2{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 26px;
+    font: 20px bold;
+    text-shadow:  1px 1px 2px black;
+}
+
+/*New*/
+.main-dress-div{
+    width: 100%;
+    height: 630px;
+    background-color: #FEFAE0;
+    border: solid 5px darksalmon;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    position: relative;
+    /* display: flex; */
+    padding-top: 80px;
+}
+
+.bestseller-div{
+    color: indianred;
+    left: 40%;
+    top: 15px;
+    position: absolute;
+    border-top: solid 4px;
+    border-bottom: solid 4px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.main-dress-inner-div{
+    /* margin-top: 30px; */
+    display: grid;
+    padding: 0 0 0 60px;
+    grid-template-columns: 420px 420px 420px;
+}
+.dress-div-1{
+    width: 320px;
+    height: 450px;
+    background-color: beige;
+    /* margin-top: 30px; */
+    /* margin-left: 80px; */
+    border-radius: 5px;
+    background-image: url(web-images/cart-image-1.avif);
+    background-size: cover;
+    transition: background 1s;
+    transition-delay: 0.2s;
+}
+.dress-div-1:hover{
+    background-image: url(web-images/cart-image-1-hover.avif);
+    background-size: cover;
+}
+.attri-link-1{
+    width: 320px;
+    height: 450px;
+    position: absolute;
+}
+
+.dress-info-1{
+    position: relative;
+    height: 150px;
+}
+
+.dress-text-1{
+    color: black;
+    position: absolute;
+    font-size: 18px;
+    /* left: 80px; */
+    top: 5px;
+}
+
+.price-1{
+    position: absolute;
+    font-size: 18px;
+    /* left: 80px; */
+    top: 60px;
+    cursor: pointer;
+}
+.price-1:hover{
+    color: indianred;
+    text-decoration: underline;
+}
+
+.cart-button-1{
+    /* left: 70px; */
+    top: 100px;
+    width: 320px;
+    height: 40px;
+    font-size: 18px;
+    transition: box-shadow 0.4s;
+    border-radius: 5px;
+    background-color: bisque;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.cart-button-1:hover{
+    color: white;
+    box-shadow: inset 0px 20px 0px darksalmon,
+    inset 0px -20px 0px darksalmon;
+}
+.cart-button-1:active{
+    opacity: 0.8;
+}
+
+
+.dress-div-2{
+    width: 320px;
+    height: 450px;
+    background-color: beige;
+    /* margin-top: 30px; */
+    /* margin-left: 100px; */
+    border-radius: 5px;
+    background-image: url(web-images/cart-image-2.jpg);
+    background-size: cover;
+    transition: background 1s;
+    transition: background-image 0.7s;
+    transition-delay: 0.2s;
+}
+.dress-div-2:hover{
+    background-image: url(web-images/cart-image-2-hover.jpg);
+    background-size: cover;
+}
+.attri-link-2{
+    width: 320px;
+    height: 450px;
+    position: absolute;
+}
+
+.dress-div-3{
+    width: 320px;
+    height: 450px;
+    background-color: beige;
+    /* margin-top: 30px; */
+    /* margin-left: 100px; */
+    border-radius: 5px;
+    background-image: url(web-images/cart-image-3.jpg);
+    background-size: cover;
+    transition: background 1s;
+    transition: background-image 0.7s;
+    transition-delay: 0.2s;
+}
+.dress-div-3:hover{
+    background-image: url(web-images/cart-image-3-hover.jpg);
+    background-size: cover;
+}
+.attri-link-3{
+    width: 320px;
+    height: 450px;
+    position: absolute;
+}
+
+/*New*/
+.main-men-div{
+    width: 100%;
+    height: 650px;
+    background-color: #FEFAE0;
+    border: solid 5px darksalmon;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 30px;
+    position: relative;
+}
+.men-div{
+    width: 1150px;
+    height: 600px;
+    background-color: beige;
+    margin-left: 100px;
+    margin-top: 20px;
+    position: absolute;
+    background-image: url(web-images/men-group-pic.jpg);
+    /* background-size: 1150px 600px; */
+    background-size: cover;
+    background-position: -150px;
+    border-radius: 6px;
+}
+
+/*New*/
+.main-women-div{
+    width: 100%;
+    height: 650px;
+    background-color: #FEFAE0;
+    border: solid 5px darksalmon;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 30px;
+    position: relative;
+}
+.women-div{
+    width: 1150px;
+    height: 600px;
+    background-color: beige;
+    margin-left: 100px;
+    margin-top: 20px;
+    position: absolute;
+    background-image: url(web-images/women-group-pic.jpg);
+    background-size: 1150px 600px;
+    border-radius: 6px;
+}
+
+/*New*/
+.ending-div{
+    width: 100%;
+    height: 300px;
+    background-color: peachpuff;
+    position: relative;
+    margin-top: 30px;
+}
+
+.categories-div{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    position: absolute;
+}
+.men-categories{
+    width: 200px;
+    height: 100%;
+    left: 10px;
+    position: relative;
+    /* background-color: red; */
+}
+.women-categories{
+    width: 200px;
+    height: 100%;
+    position: relative;
+    /* background-color: yellow;  */
+}
+.kids-categories{
+    width: 200px;
+    height: 100%;
+    position: relative;
+    /* background-color: pink;  */
+}
+
+.ending-categorie{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-div{
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    /* background-color: blue; */
+    position: absolute;
+}
+.follow-div{
+    position: absolute;
+    top: 10px;
+}
+.social-media-div{
+    position: absolute;
+    top: 40px;
+}
+.instagram-img{
+    width: 25px;
+    margin-left: 2px;
+}
+.facebook-img{
+    width: 25px;
+    margin-left: 2px;
+}
+.whatsapp-img{
+    width: 25px;
+    margin-left: 2px;
+}
+.youtube-img{
+    width: 25px;
+    margin-left: 2px;
+}
+.customer-care-div{
+    top: 10px;
+    left: 180px;
+    position: absolute;
+}
+.help-div1{
+    position: absolute;
+    left: 500px;
+}
+.help-categories{
+    margin-top: 10px;
+}

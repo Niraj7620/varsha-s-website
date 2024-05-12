@@ -1,0 +1,747 @@
+body{
+    background-color: #FEFAE0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*New*/
+.main-heading{
+    height: 90px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-top: solid black;
+    border-bottom: solid black;
+    z-index: 1;
+}
+
+.logo-div{
+    background-color: white;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-div-1{
+    background-color: white;
+    color: darksalmon;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 40px;
+    transition: box-shadow 0.7s;
+    cursor: pointer;
+}
+.logo-div-1:hover{
+    color: white;
+    box-shadow: inset 70px 0 0 0 darksalmon,
+                inset 0px 70px 0 0 darksalmon,
+                inset -70px 0px 0 0 darksalmon,
+                inset 0px -70px 0 0 darksalmon;
+}
+.sidebar{
+    width: 0px;
+    height: 1180px;
+    left: 0;
+    top: 0;
+    background: bisque;
+    border-right: solid;
+    /* padding: 10px; */
+    position: absolute;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 1;
+    transition: .4s;
+}
+.sidebar .sidebar-button{
+    width: 200px;
+    height: 45px;
+    margin: 10px;
+    /* background-color: rgb(255, 228, 196); */
+    background: bisque;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+.sidebar-button:hover{
+    color: darksalmon;
+}
+.cancel-button{
+    background: bisque;
+    border: none;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cancel-button:hover{
+    color: darksalmon;
+}
+
+.main-button-div{
+    /* background-color: #252324; */
+    background-color: white;
+    width: 75%;
+    position: relative;
+}
+.h-button-1{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h-button-2{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 40px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.h-button-3{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 180px;
+    margin-top: 40px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.h-button-4{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 240px;
+    margin-top: 40px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.h-button-5{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 290px;
+    margin-top: 40px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.h-button-6{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 460px;
+    position: absolute;
+    transition: box-shadow 0.6s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.h-button-1:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+} .h-button-2:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+} .h-button-3:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+} .h-button-4:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+} .h-button-5:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+} .h-button-6:hover{
+    box-shadow: inset 0px -5px 0px 0px darksalmon,
+    inset 0px 0px 2px darksalmon;
+}
+
+.h-button-1 .button-options{
+    width: 1000px;
+    height: 480px;
+    background-color: peachpuff;
+    top: 40px;
+    left: -40px;
+    border: solid 2px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.options-img{
+    height: 440px;
+    /* width: 320px; */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.h-button-1:hover .button-options{
+    opacity: 1;
+    pointer-events: visible;
+}
+.h-button-1:focus .button-options{
+    opacity: 1;
+    pointer-events: visible;
+}
+.men-button-div{
+    /* background-color: green; */
+    top: 20px;
+    left: 350px;
+    width: 640px;
+    height: 460px;
+    position: absolute;
+    z-index: 1;
+}
+.men-head-div-1{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 0px;
+}
+.men-head-div-2{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: red; */
+    top: 30px;
+    left: 160px;
+}
+.men-head-div-3{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: yellow; */
+    top: 30px;
+    left: 320px;
+}
+.men-head-div-4{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 480px;
+}
+.men-head-span-1{
+    position: absolute;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: salmon;
+}
+.men-span-1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 15px;
+}
+.men-span-1:hover{
+    color: indianred;
+}
+
+.men-span-2{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 15px;
+}
+.men-span-2:hover{
+    color: indianred;
+}
+
+.men-span-3{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    font-size: 15px;
+}
+.men-span-3:hover{
+    color: indianred;
+}
+
+.men-span-4{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    font-size: 15px;
+}
+.men-span-4:hover{
+    color: indianred;
+}
+
+.men-span-5{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    font-size: 15px;
+}
+.men-span-5:hover{
+    color: indianred;
+}
+
+
+.h-button-2 .button-options{
+    width: 1000px;
+    height: 480px;
+    background-color: peachpuff;
+    top: 40px;
+    left: -100px;
+    border: solid 2px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.h-button-2:hover .button-options{
+    opacity: 1;
+    pointer-events: all;
+}
+.h-button-2:focus .button-options{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.options-img-women{
+    height: 440px;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.women-button-div{
+    /* background-color: green; */
+    top: 20px;
+    left: 350px;
+    width: 640px;
+    height: 460px;
+    position: absolute;
+    z-index: 1;
+}
+.women-head-div-1{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 0px;
+}
+.women-head-div-2{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: red; */
+    top: 30px;
+    left: 160px;
+}
+.women-head-div-3{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: yellow; */
+    top: 30px;
+    left: 320px;
+}
+.women-head-div-4{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 480px;
+}
+.women-head-span-1{
+    position: absolute;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: salmon;
+}
+.women-span-1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 15px;
+}
+.women-span-1:hover{
+    color: indianred;
+}
+
+.women-span-2{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 15px;
+}
+.women-span-2:hover{
+    color: indianred;
+}
+
+.women-span-3{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    font-size: 15px;
+}
+.women-span-3:hover{
+    color: indianred;
+}
+
+.women-span-4{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    font-size: 15px;
+}
+.women-span-4:hover{
+    color: indianred;
+}
+
+.women-span-5{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    font-size: 15px;
+}
+.women-span-5:hover{
+    color: indianred;
+}
+
+
+.h-button-3 .button-options{
+    width: 1000px;
+    height: 480px;
+    background-color: peachpuff;
+    top: 40px;
+    left: -180px;
+    border: solid 2px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.h-button-3:hover .button-options{
+    opacity: 1;
+    pointer-events: all;
+}
+.h-button-3:focus .button-options{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.options-img-kids{
+    height: 440px;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.kids-button-div{
+    /* background-color: green; */
+    top: 20px;
+    left: 350px;
+    width: 640px;
+    height: 460px;
+    position: absolute;
+    z-index: 1;
+}
+.kids-head-div-1{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 0px;
+}
+.kids-head-div-2{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: red; */
+    top: 30px;
+    left: 160px;
+}
+.kids-head-div-3{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: yellow; */
+    top: 30px;
+    left: 320px;
+}
+.kids-head-div-4{
+    position: absolute;
+    width: 160px;
+    height: 400px;
+    /* background-color: blue; */
+    top: 30px;
+    left: 480px;
+}
+.kids-head-span-1{
+    position: absolute;
+    /* background-color: red; */
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: salmon;
+}
+.kids-span-1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 15px;
+}
+.kids-span-1:hover{
+    color: indianred;
+}
+
+.kids-span-2{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 15px;
+}
+.kids-span-2:hover{
+    color: indianred;
+}
+
+.kids-span-3{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    font-size: 15px;
+}
+.kids-span-3:hover{
+    color: indianred;
+}
+
+.kids-span-4{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    font-size: 15px;
+}
+.kids-span-4:hover{
+    color: indianred;
+}
+
+.kids-span-5{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    font-size: 15px;
+}
+.kids-span-5:hover{
+    color: indianred;
+}
+
+.searchbar{
+    margin-left: 650px;
+    margin-top: 40px;
+    width: 212px;
+    height: 25px;
+    padding-left: 10px;
+    border: solid 1px grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+}
+.search-button{
+    left: 877px;
+    top: 40px;
+    height: 29px;
+    background-color: white;
+    position: absolute;
+    border: solid 1px grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search-button:active{
+    opacity: 0.7;
+}
+
+.my-button-div{
+    background-color: white;
+    position: relative;
+    width: 15%;
+}
+.my-buttons-1{
+    width: 35px;
+    height: 35px;
+    left: 12px;
+    top: 10px;
+    background-color: white;
+    border: none;
+    transition: box-shadow 0.6s;
+    border-radius: 40px;
+    position: absolute;
+}
+.my-buttons-1:hover{
+    opacity: 0.8;
+}
+.button-svg-1{
+    font-size: 35px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.profile-button-div{
+    top: 35px;
+    left: -5px;
+    font-size: 15px;
+    color: blac;
+    background-color: white;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    z-index: 2;
+}
+.my-buttons-1:hover .profile-button-div{
+    opacity: 1;
+    z-index: 2;
+}
+
+.my-buttons-2{
+    width: 35px;
+    height: 35px;
+    left: 75px;
+    top: 10px;
+    border: none;
+    background-color: white;
+    transition: box-shadow 0.6s;
+    border-radius: 50%;
+    position: absolute;
+}
+.my-buttons-2:hover{
+    opacity: 0.8;
+}
+.button-svg-2{
+    font-size: 30px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 1;
+}
+.js-my-button{
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    background-color: white;
+    z-index: 2;
+}
+.cart-button-div{
+    top: 35px;
+    left: 5px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.my-buttons-2:hover .cart-button-div{
+    opacity: 1;
+}
+
+.my-buttons-3{
+    width: 35px;
+    height: 35px;
+    left: 140px;
+    top: 10px;
+    border: none;
+    background-color: white;
+    transition: box-shadow 0.6s;
+    border-radius: 40px;
+    position: absolute;
+}
+.my-buttons-3:hover{
+    opacity: 0.8;
+}
+.button-svg-3{
+    font-size: 30px;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+.favorites-button-div{
+    top: 35px;
+    left: -15px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.my-buttons-3:hover .favorites-button-div{
+    opacity: 1;
+}
+
+.my-buttons-4{
+    width: 100px;
+    height: 25%;
+    left: 40px;
+    top: 65px;
+    background-color: white;
+    border: solid 1px bisque;
+    transition: box-shadow 0.6s;
+    border-width: 0.2px;
+    border-radius: 40px;
+    position: absolute;
+}
+.my-buttons-4:hover{
+    color: white;
+    box-shadow: inset 0px -15px 0px 0px darksalmon,
+                inset 0px 15px 0px 0px darksalmon;
+}
